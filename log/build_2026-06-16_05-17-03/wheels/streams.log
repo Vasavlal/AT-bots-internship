@@ -1,0 +1,55 @@
+[0.040s] Invoking command in '/home/vasav/vasav_ws/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/vasav/vasav_ws/src/wheels -DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/wheels
+[1.061s] -- The C compiler identification is GNU 13.3.0
+[3.197s] -- The CXX compiler identification is GNU 13.3.0
+[5.029s] -- Detecting C compiler ABI info
+[6.101s] -- Detecting C compiler ABI info - done
+[6.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.121s] -- Detecting C compile features
+[6.123s] -- Detecting C compile features - done
+[6.541s] -- Detecting CXX compiler ABI info
+[7.562s] -- Detecting CXX compiler ABI info - done
+[7.580s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.580s] -- Detecting CXX compile features
+[7.581s] -- Detecting CXX compile features - done
+[7.612s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.898s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.172s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[8.706s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[8.745s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[8.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.868s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.112s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[9.124s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[9.344s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[9.903s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.197s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.797s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[10.844s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[10.973s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[11.014s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.247s] -- Added test 'lint_cmake' to check CMake code style
+[11.254s] -- Added test 'xmllint' to check XML markup files
+[11.260s] -- Configuring done (11.0s)
+[11.276s] -- Generating done (0.0s)
+[11.282s] -- Build files have been written to: /home/vasav/vasav_ws/build/wheels
+[11.303s] Invoked command in '/home/vasav/vasav_ws/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/vasav/vasav_ws/src/wheels -DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/wheels
+[11.306s] Invoking command in '/home/vasav/vasav_ws/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/wheels -- -j8 -l8
+[11.389s] Invoked command in '/home/vasav/vasav_ws/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/wheels -- -j8 -l8
+[11.410s] Invoking command in '/home/vasav/vasav_ws/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/wheels
+[11.428s] -- Install configuration: ""
+[11.430s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/ament_index/resource_index/package_run_dependencies/wheels
+[11.431s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/ament_index/resource_index/parent_prefix_path/wheels
+[11.432s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/environment/ament_prefix_path.sh
+[11.433s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/environment/ament_prefix_path.dsv
+[11.433s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/environment/path.sh
+[11.434s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/environment/path.dsv
+[11.434s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/local_setup.bash
+[11.435s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/local_setup.sh
+[11.435s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/local_setup.zsh
+[11.435s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/local_setup.dsv
+[11.436s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/package.dsv
+[11.436s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/ament_index/resource_index/packages/wheels
+[11.437s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/cmake/wheelsConfig.cmake
+[11.438s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/cmake/wheelsConfig-version.cmake
+[11.438s] -- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/package.xml
+[11.442s] Invoked command in '/home/vasav/vasav_ws/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/wheels

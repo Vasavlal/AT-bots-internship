@@ -1,0 +1,6 @@
+Invoking command in '/home/vasav/vasav_ws/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/vasav/vasav_ws/src/arms -DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/arms
+Invoked command in '/home/vasav/vasav_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/vasav/vasav_ws/src/arms -DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/arms
+Invoking command in '/home/vasav/vasav_ws/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/arms -- -j8 -l8
+Invoked command in '/home/vasav/vasav_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/arms -- -j8 -l8
+Invoking command in '/home/vasav/vasav_ws/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/arms
+Invoked command in '/home/vasav/vasav_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/arms

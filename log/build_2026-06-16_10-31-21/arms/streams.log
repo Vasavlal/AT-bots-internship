@@ -1,0 +1,23 @@
+[0.039s] Invoking command in '/home/vasav/vasav_ws/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/arms -- -j8 -l8
+[0.200s] Invoked command in '/home/vasav/vasav_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/arms -- -j8 -l8
+[0.204s] Invoking command in '/home/vasav/vasav_ws/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/arms
+[0.218s] -- Install configuration: ""
+[0.218s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/scripts
+[0.222s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/scripts/arms.py
+[0.224s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/lib/arms/arms.py
+[0.224s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/ament_index/resource_index/package_run_dependencies/arms
+[0.225s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/ament_index/resource_index/parent_prefix_path/arms
+[0.225s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/environment/ament_prefix_path.sh
+[0.225s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/environment/ament_prefix_path.dsv
+[0.225s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/environment/path.sh
+[0.225s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/environment/path.dsv
+[0.226s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/local_setup.bash
+[0.226s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/local_setup.sh
+[0.226s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/local_setup.zsh
+[0.226s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/local_setup.dsv
+[0.226s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/package.dsv
+[0.226s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/ament_index/resource_index/packages/arms
+[0.226s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/cmake/armsConfig.cmake
+[0.226s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/cmake/armsConfig-version.cmake
+[0.227s] -- Up-to-date: /home/vasav/vasav_ws/install/arms/share/arms/package.xml
+[0.260s] Invoked command in '/home/vasav/vasav_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/arms

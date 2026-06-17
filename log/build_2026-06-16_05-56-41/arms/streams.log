@@ -1,0 +1,55 @@
+[0.123s] Invoking command in '/home/vasav/vasav_ws/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/vasav/vasav_ws/src/arms -DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/arms
+[0.846s] -- The C compiler identification is GNU 13.3.0
+[2.151s] -- The CXX compiler identification is GNU 13.3.0
+[3.203s] -- Detecting C compiler ABI info
+[3.625s] -- Detecting C compiler ABI info - done
+[3.634s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.635s] -- Detecting C compile features
+[3.636s] -- Detecting C compile features - done
+[3.903s] -- Detecting CXX compiler ABI info
+[4.541s] -- Detecting CXX compiler ABI info - done
+[4.551s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.551s] -- Detecting CXX compile features
+[4.551s] -- Detecting CXX compile features - done
+[4.565s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.751s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.936s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.177s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.199s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.403s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.409s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.646s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.866s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.093s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.374s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.401s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[6.467s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[6.490s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.632s] -- Added test 'lint_cmake' to check CMake code style
+[6.635s] -- Added test 'xmllint' to check XML markup files
+[6.638s] -- Configuring done (6.4s)
+[6.648s] -- Generating done (0.0s)
+[6.651s] -- Build files have been written to: /home/vasav/vasav_ws/build/arms
+[6.668s] Invoked command in '/home/vasav/vasav_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/vasav/vasav_ws/src/arms -DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/arms
+[6.669s] Invoking command in '/home/vasav/vasav_ws/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/arms -- -j8 -l8
+[6.722s] Invoked command in '/home/vasav/vasav_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/arms -- -j8 -l8
+[6.723s] Invoking command in '/home/vasav/vasav_ws/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/arms
+[6.732s] -- Install configuration: ""
+[6.733s] -- Installing: /home/vasav/vasav_ws/install/arms/share/ament_index/resource_index/package_run_dependencies/arms
+[6.734s] -- Installing: /home/vasav/vasav_ws/install/arms/share/ament_index/resource_index/parent_prefix_path/arms
+[6.735s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/environment/ament_prefix_path.sh
+[6.735s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/environment/ament_prefix_path.dsv
+[6.735s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/environment/path.sh
+[6.736s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/environment/path.dsv
+[6.736s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/local_setup.bash
+[6.736s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/local_setup.sh
+[6.736s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/local_setup.zsh
+[6.736s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/local_setup.dsv
+[6.737s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/package.dsv
+[6.737s] -- Installing: /home/vasav/vasav_ws/install/arms/share/ament_index/resource_index/packages/arms
+[6.738s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/cmake/armsConfig.cmake
+[6.739s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/cmake/armsConfig-version.cmake
+[6.739s] -- Installing: /home/vasav/vasav_ws/install/arms/share/arms/package.xml
+[6.742s] Invoked command in '/home/vasav/vasav_ws/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/arms

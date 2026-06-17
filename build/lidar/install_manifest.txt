@@ -1,0 +1,17 @@
+/home/vasav/vasav_ws/install/lidar/share/lidar/scripts/lidar.py
+/home/vasav/vasav_ws/install/lidar/lib/lidar/lidar.py
+/home/vasav/vasav_ws/install/lidar/share/ament_index/resource_index/package_run_dependencies/lidar
+/home/vasav/vasav_ws/install/lidar/share/ament_index/resource_index/parent_prefix_path/lidar
+/home/vasav/vasav_ws/install/lidar/share/lidar/environment/ament_prefix_path.sh
+/home/vasav/vasav_ws/install/lidar/share/lidar/environment/ament_prefix_path.dsv
+/home/vasav/vasav_ws/install/lidar/share/lidar/environment/path.sh
+/home/vasav/vasav_ws/install/lidar/share/lidar/environment/path.dsv
+/home/vasav/vasav_ws/install/lidar/share/lidar/local_setup.bash
+/home/vasav/vasav_ws/install/lidar/share/lidar/local_setup.sh
+/home/vasav/vasav_ws/install/lidar/share/lidar/local_setup.zsh
+/home/vasav/vasav_ws/install/lidar/share/lidar/local_setup.dsv
+/home/vasav/vasav_ws/install/lidar/share/lidar/package.dsv
+/home/vasav/vasav_ws/install/lidar/share/ament_index/resource_index/packages/lidar
+/home/vasav/vasav_ws/install/lidar/share/lidar/cmake/lidarConfig.cmake
+/home/vasav/vasav_ws/install/lidar/share/lidar/cmake/lidarConfig-version.cmake
+/home/vasav/vasav_ws/install/lidar/share/lidar/package.xml

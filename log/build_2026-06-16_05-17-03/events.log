@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.001355] (wheels) JobQueued: {'identifier': 'wheels', 'dependencies': OrderedDict()}
+[0.001506] (wheels) JobStarted: {'identifier': 'wheels'}
+[0.034662] (wheels) JobProgress: {'identifier': 'wheels', 'progress': 'cmake'}
+[0.039050] (wheels) Command: {'cmd': ['/usr/bin/cmake', '/home/vasav/vasav_ws/src/wheels', '-DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/wheels'], 'cwd': '/home/vasav/vasav_ws/build/wheels', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vasav', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/vasav', 'OLDPWD': '/home/vasav/vasav_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vasav', 'NAME': 'ROG-STRIX', 'WSL_INTEROP': '/run/WSL/339_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.5.10.0_x64__8wekyb3d8bbwe:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-19/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ffmpeg/ffmpeg/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Git/cmd:/mnt/c/Users/yadul/AppData/Roaming/Python/Python313/Scripts:/mnt/c/Users/yadul/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/cursor/resources/app/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-19/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ffmpeg/ffmpeg/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Git/cmd:/mnt/c/Users/yadul/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yadul/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/MySQL/MySQL Serve:/mnt/c/Users/yadul/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yadul/AppData/Roaming/npm:/mnt/c/Users/yadul/AppData/Local/Programs/Ollama:/mnt/d/Windsurf/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/vasav/vasav_ws/build/wheels', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.099825] (-) TimerEvent: {}
+[0.200428] (-) TimerEvent: {}
+[0.300883] (-) TimerEvent: {}
+[0.401339] (-) TimerEvent: {}
+[0.502043] (-) TimerEvent: {}
+[0.602487] (-) TimerEvent: {}
+[0.702949] (-) TimerEvent: {}
+[0.803381] (-) TimerEvent: {}
+[0.903799] (-) TimerEvent: {}
+[1.004228] (-) TimerEvent: {}
+[1.062709] (wheels) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.104448] (-) TimerEvent: {}
+[1.204954] (-) TimerEvent: {}
+[1.305386] (-) TimerEvent: {}
+[1.405801] (-) TimerEvent: {}
+[1.506263] (-) TimerEvent: {}
+[1.606664] (-) TimerEvent: {}
+[1.707086] (-) TimerEvent: {}
+[1.807513] (-) TimerEvent: {}
+[1.908003] (-) TimerEvent: {}
+[2.008524] (-) TimerEvent: {}
+[2.108935] (-) TimerEvent: {}
+[2.209423] (-) TimerEvent: {}
+[2.309894] (-) TimerEvent: {}
+[2.410386] (-) TimerEvent: {}
+[2.510842] (-) TimerEvent: {}
+[2.611312] (-) TimerEvent: {}
+[2.711769] (-) TimerEvent: {}
+[2.812166] (-) TimerEvent: {}
+[2.912572] (-) TimerEvent: {}
+[3.012978] (-) TimerEvent: {}
+[3.113430] (-) TimerEvent: {}
+[3.198057] (wheels) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.213587] (-) TimerEvent: {}
+[3.314041] (-) TimerEvent: {}
+[3.414569] (-) TimerEvent: {}
+[3.515004] (-) TimerEvent: {}
+[3.615452] (-) TimerEvent: {}
+[3.715918] (-) TimerEvent: {}
+[3.816321] (-) TimerEvent: {}
+[3.916732] (-) TimerEvent: {}
+[4.017180] (-) TimerEvent: {}
+[4.117638] (-) TimerEvent: {}
+[4.218179] (-) TimerEvent: {}
+[4.318622] (-) TimerEvent: {}
+[4.419090] (-) TimerEvent: {}
+[4.519553] (-) TimerEvent: {}
+[4.620019] (-) TimerEvent: {}
+[4.720461] (-) TimerEvent: {}
+[4.820958] (-) TimerEvent: {}
+[4.921408] (-) TimerEvent: {}
+[5.021813] (-) TimerEvent: {}
+[5.030563] (wheels) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.122059] (-) TimerEvent: {}
+[5.222456] (-) TimerEvent: {}
+[5.322851] (-) TimerEvent: {}
+[5.423329] (-) TimerEvent: {}
+[5.523828] (-) TimerEvent: {}
+[5.624279] (-) TimerEvent: {}
+[5.724740] (-) TimerEvent: {}
+[5.825180] (-) TimerEvent: {}
+[5.925672] (-) TimerEvent: {}
+[6.026359] (-) TimerEvent: {}
+[6.102650] (wheels) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.119440] (wheels) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.122374] (wheels) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.123990] (wheels) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.126566] (-) TimerEvent: {}
+[6.227005] (-) TimerEvent: {}
+[6.327441] (-) TimerEvent: {}
+[6.427853] (-) TimerEvent: {}
+[6.528289] (-) TimerEvent: {}
+[6.542640] (wheels) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.628455] (-) TimerEvent: {}
+[6.728865] (-) TimerEvent: {}
+[6.829311] (-) TimerEvent: {}
+[6.929732] (-) TimerEvent: {}
+[7.030252] (-) TimerEvent: {}
+[7.130768] (-) TimerEvent: {}
+[7.231227] (-) TimerEvent: {}
+[7.331743] (-) TimerEvent: {}
+[7.432158] (-) TimerEvent: {}
+[7.532590] (-) TimerEvent: {}
+[7.563718] (wheels) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.581146] (wheels) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.581668] (wheels) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.582693] (wheels) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.613374] (wheels) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[7.632796] (-) TimerEvent: {}
+[7.733224] (-) TimerEvent: {}
+[7.833616] (-) TimerEvent: {}
+[7.899453] (wheels) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.933796] (-) TimerEvent: {}
+[8.034242] (-) TimerEvent: {}
+[8.134681] (-) TimerEvent: {}
+[8.173247] (wheels) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[8.234852] (-) TimerEvent: {}
+[8.335258] (-) TimerEvent: {}
+[8.435766] (-) TimerEvent: {}
+[8.536291] (-) TimerEvent: {}
+[8.636795] (-) TimerEvent: {}
+[8.707453] (wheels) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[8.737002] (-) TimerEvent: {}
+[8.746679] (wheels) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[8.810911] (wheels) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.837179] (-) TimerEvent: {}
+[8.869184] (wheels) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.937362] (-) TimerEvent: {}
+[9.037872] (-) TimerEvent: {}
+[9.113612] (wheels) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[9.125118] (wheels) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.138080] (-) TimerEvent: {}
+[9.238587] (-) TimerEvent: {}
+[9.338990] (-) TimerEvent: {}
+[9.345258] (wheels) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[9.439157] (-) TimerEvent: {}
+[9.539577] (-) TimerEvent: {}
+[9.639992] (-) TimerEvent: {}
+[9.740422] (-) TimerEvent: {}
+[9.840918] (-) TimerEvent: {}
+[9.904850] (wheels) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[9.941161] (-) TimerEvent: {}
+[10.041584] (-) TimerEvent: {}
+[10.142030] (-) TimerEvent: {}
+[10.197982] (wheels) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.242190] (-) TimerEvent: {}
+[10.342655] (-) TimerEvent: {}
+[10.443115] (-) TimerEvent: {}
+[10.543536] (-) TimerEvent: {}
+[10.643960] (-) TimerEvent: {}
+[10.744376] (-) TimerEvent: {}
+[10.798665] (wheels) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[10.844551] (-) TimerEvent: {}
+[10.845642] (wheels) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[10.944796] (-) TimerEvent: {}
+[10.974219] (wheels) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[11.015278] (wheels) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[11.045012] (-) TimerEvent: {}
+[11.145485] (-) TimerEvent: {}
+[11.246005] (-) TimerEvent: {}
+[11.248724] (wheels) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.254972] (wheels) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.261456] (wheels) StdoutLine: {'line': b'-- Configuring done (11.0s)\n'}
+[11.276927] (wheels) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[11.283247] (wheels) StdoutLine: {'line': b'-- Build files have been written to: /home/vasav/vasav_ws/build/wheels\n'}
+[11.304280] (wheels) CommandEnded: {'returncode': 0}
+[11.305363] (wheels) JobProgress: {'identifier': 'wheels', 'progress': 'build'}
+[11.307067] (wheels) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vasav/vasav_ws/build/wheels', '--', '-j8', '-l8'], 'cwd': '/home/vasav/vasav_ws/build/wheels', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vasav', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/vasav', 'OLDPWD': '/home/vasav/vasav_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vasav', 'NAME': 'ROG-STRIX', 'WSL_INTEROP': '/run/WSL/339_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.5.10.0_x64__8wekyb3d8bbwe:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-19/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ffmpeg/ffmpeg/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Git/cmd:/mnt/c/Users/yadul/AppData/Roaming/Python/Python313/Scripts:/mnt/c/Users/yadul/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/cursor/resources/app/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-19/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ffmpeg/ffmpeg/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Git/cmd:/mnt/c/Users/yadul/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yadul/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/MySQL/MySQL Serve:/mnt/c/Users/yadul/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yadul/AppData/Roaming/npm:/mnt/c/Users/yadul/AppData/Local/Programs/Ollama:/mnt/d/Windsurf/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/vasav/vasav_ws/build/wheels', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[11.346658] (-) TimerEvent: {}
+[11.389683] (wheels) CommandEnded: {'returncode': 0}
+[11.391056] (wheels) JobProgress: {'identifier': 'wheels', 'progress': 'install'}
+[11.411331] (wheels) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vasav/vasav_ws/build/wheels'], 'cwd': '/home/vasav/vasav_ws/build/wheels', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vasav', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/vasav', 'OLDPWD': '/home/vasav/vasav_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vasav', 'NAME': 'ROG-STRIX', 'WSL_INTEROP': '/run/WSL/339_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.5.10.0_x64__8wekyb3d8bbwe:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-19/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ffmpeg/ffmpeg/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Git/cmd:/mnt/c/Users/yadul/AppData/Roaming/Python/Python313/Scripts:/mnt/c/Users/yadul/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/cursor/resources/app/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/yadul/AppData/Local/Programs/Python/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-19/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ffmpeg/ffmpeg/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Git/cmd:/mnt/c/Users/yadul/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yadul/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/MySQL/MySQL Serve:/mnt/c/Users/yadul/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yadul/AppData/Roaming/npm:/mnt/c/Users/yadul/AppData/Local/Programs/Ollama:/mnt/d/Windsurf/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/vasav/vasav_ws/build/wheels', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[11.429414] (wheels) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.431568] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/ament_index/resource_index/package_run_dependencies/wheels\n'}
+[11.432499] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/ament_index/resource_index/parent_prefix_path/wheels\n'}
+[11.433720] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/environment/ament_prefix_path.sh\n'}
+[11.434103] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/environment/ament_prefix_path.dsv\n'}
+[11.434853] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/environment/path.sh\n'}
+[11.435355] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/environment/path.dsv\n'}
+[11.435871] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/local_setup.bash\n'}
+[11.436076] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/local_setup.sh\n'}
+[11.436435] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/local_setup.zsh\n'}
+[11.436877] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/local_setup.dsv\n'}
+[11.437284] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/package.dsv\n'}
+[11.437735] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/ament_index/resource_index/packages/wheels\n'}
+[11.438614] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/cmake/wheelsConfig.cmake\n'}
+[11.439045] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/cmake/wheelsConfig-version.cmake\n'}
+[11.439386] (wheels) StdoutLine: {'line': b'-- Installing: /home/vasav/vasav_ws/install/wheels/share/wheels/package.xml\n'}
+[11.442900] (wheels) CommandEnded: {'returncode': 0}
+[11.446848] (-) TimerEvent: {}
+[11.489674] (wheels) JobEnded: {'identifier': 'wheels', 'rc': 0}
+[11.492135] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/vasav/vasav_ws/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/vasav/vasav_ws/src/lidar -DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/lidar
+Invoked command in '/home/vasav/vasav_ws/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/vasav/vasav_ws/src/lidar -DCMAKE_INSTALL_PREFIX=/home/vasav/vasav_ws/install/lidar
+Invoking command in '/home/vasav/vasav_ws/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/lidar -- -j8 -l8
+Invoked command in '/home/vasav/vasav_ws/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/vasav/vasav_ws/build/lidar -- -j8 -l8
+Invoking command in '/home/vasav/vasav_ws/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/lidar
+Invoked command in '/home/vasav/vasav_ws/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/vasav/vasav_ws/build/lidar
